@@ -1,0 +1,41 @@
+{
+  "name": "vimers",
+  "version": "0.0.1",
+  "description": "a package to manage timers with mixin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masongzhi/vimers.git"
+  },
+  "keywords": [
+    "vue-timers",
+    "vue-timer",
+    "timers"
+  ],
+  "author": "masongzhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masongzhi/vimers/issues"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "homepage": "https://github.com/masongzhi/vimers#readme",
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.26",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "husky": "^1.2.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.15.3",
+    "pretty-quick": "^1.8.0",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "dependencies": {}
+}
