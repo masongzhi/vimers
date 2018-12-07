@@ -31,7 +31,8 @@ describe('test class Timer', () => {
       time: 1000,
     }
     try {
-      new Timer(option, wrapper.vm)
+      const timer = new Timer(option, wrapper.vm)
+      console.log('timer===>>>>', timer)
     } catch (e) {
       expect(e).toEqual(new Error('[vimers.create] name is required'))
     }
@@ -44,7 +45,8 @@ describe('test class Timer', () => {
       time: 1000,
     }
     try {
-      new Timer(option, wrapper.vm)
+      const timer = new Timer(option, wrapper.vm)
+      console.log('timer===>>>>', timer)
     } catch (e) {
       expect(e).toEqual(
         new ReferenceError('[vimers.create] Cannot find method notExist')
@@ -60,7 +62,8 @@ describe('test class Timer', () => {
       callback: true,
     }
     try {
-      new Timer(option, wrapper.vm)
+      const timer = new Timer(option, wrapper.vm)
+      console.log('timer===>>>>', timer)
     } catch (e) {
       expect(e).toEqual(
         new TypeError(
