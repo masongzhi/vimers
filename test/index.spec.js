@@ -1,9 +1,11 @@
-import { mount } from '@vue/test-utils'
-import mixin from '../src/mixin'
+import { mount, createLocalVue } from '@vue/test-utils'
+import vimers from '../src'
+
+const localVue = createLocalVue()
+localVue.use(vimers)
 
 const component = {
   template: '<div></div>',
-  mixins: [mixin],
   timers: {
     log: { time: 1000 },
   },
@@ -34,6 +36,7 @@ describe('global import', () => {
 
   it('test setTimeout', () => {
     const wrapper = mount(component, {
+      localVue,
       timers: {
         log: { time: 1000 },
       },

@@ -30,7 +30,6 @@ Vue.use(vimers)
 
 ```js
 import vimers from 'vimers/src/mixin'
-import Vue from 'vue'
 
 export default {
   mixins: [vimers],
