@@ -7,7 +7,7 @@
     "test": "jest",
     "lint": "eslint --no-ignore --fix {src,test}",
     "format": "prettier --write '{src,test}/**/*.js'",
-    "build": "rollup -c"
+    "build": "node build/rollup.js"
   },
   "repository": {
     "type": "git",
