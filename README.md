@@ -123,6 +123,12 @@ export default {
 }
 ```
 
+### Use ES6 version
+
+```js
+import vimers from 'vimers/build/index.es6.js'
+```
+
 ## Author
 
 [masongzhi](https://github.com/masongzhi)

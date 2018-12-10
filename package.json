@@ -1,6 +1,6 @@
 {
   "name": "vimers",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a package to manage timers with mixin",
   "main": "dist/index.js",
   "scripts": {
