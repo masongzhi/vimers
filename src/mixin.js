@@ -1,7 +1,8 @@
 import Timer from './timer'
+import { isArray } from './utils'
 
 function generateOptions(options) {
-  return Array.isArray(options)
+  return isArray(options)
     ? options.reduce((res, option) => {
         res[option.name] = option
         return res

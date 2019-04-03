@@ -29,7 +29,7 @@ Vue.use(vimers)
 #### 2. Mixins import in component
 
 ```js
-import vimers from 'vimers/src/mixin'
+import { mixin as vimers } from 'vimers'
 
 export default {
   mixins: [vimers],
@@ -126,7 +126,7 @@ export default {
 ### Use ES6 version
 
 ```js
-import vimers from 'vimers/build/index.es6.js'
+import vimers from 'vimers/dist/index.es6.js'
 ```
 
 ## Author

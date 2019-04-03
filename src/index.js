@@ -1,5 +1,7 @@
-import mixin from './mixin'
+import Vimers from './mixin'
 
 export default function(Vue) {
-  Vue.mixin(mixin)
+  Vue.mixin(Vimers)
 }
+
+export const mixin = Vimers
